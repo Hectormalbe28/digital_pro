@@ -1,0 +1,39 @@
+/* ipad pro */
+@media (max-width: 1024px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+/* tablet */
+@media (max-width: 768px){
+    .brand {
+        flex-wrap: wrap;
+    }
+
+    .products {
+        display: inherit;
+        height: auto;
+    }
+
+    .products__item {
+        margin-top: auto;
+    }
+
+    .main,
+    .gifs,
+    .faces {
+        flex-wrap: wrap;
+        height: auto;
+    }
+} 
+
+/* mobile L */
+@media (max-width: 425px){
+
+} 
+
+/* mobile S */
+@media (max-width: 320px){
+
+} 

@@ -1,0 +1,13 @@
+body {
+    background-color: gray;
+}
+
+.cancel {
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}

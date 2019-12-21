@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <title>Formulario</title>
+</head>
+<body>
+  <header>
+    <nav class="brand fadeInDown">
+      <div class="brand__image">
+        <img src="images/logo.png" alt="">
+      </div>
+      <div class="brand__nav">
+        <ul>
+          <li><a href="#">Faqs</a></li>
+          <li><a href="#">Producto y Descripción</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="container__producto">
+    <div class="container__producto__formulario">
+      <div class="container__producto__formulario--imagen">
+        <img src="images/yay.gif" alt="">
+      </div>
+      <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UMXP8G2N24JWG" method="POST" class="container__producto__formulario--form">
+        <ul>
+          <h2>Pagos</h2>
+          <li><input type="text" name="name" placeholder="Nombre"></li>
+          <li><input type="email" name="email" placeholder="correo"></li>
+          <li><input type="text" name="phone" placeholder="telefono"></li>
+          <button type="submit">Pagar</button>
+        </ul>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div>Terminos</div>
+    <div>Privacidad</div>
+    <div><a href="mailto:hector@gmail.com">correo</a></div>
+  </footer>
+</html>
